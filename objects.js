@@ -42,4 +42,18 @@ const abbreviatedNote = {
 
 print(abbreviatedNote)
 
- 
+//methods
+const myCity = {
+    city: 'London',
+    cityGreeting: function () {
+        console.log('Greetings!')
+    },
+    abbMethod() {
+        console.log('abbreviated Greetings!') //abbreviated note for object method
+    }
+}
+
+myCity.cityGreeting() //call method
+myCity.abbMethod()
+
+
