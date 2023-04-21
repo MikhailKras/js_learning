@@ -58,4 +58,20 @@ function printName() { // callback function
     console.log('Jack')
 }
 
-setTimeout(printName, 10000) // 
+setTimeout(printName, 10000) // after 10000 ms callback function executed
+
+// function with args with default values
+
+const newPost = (post, addedAt = Date()) => ({
+    ...post,
+    addedAt
+})
+
+const firstPost = {
+    id: 1,
+    author: 'Jake'
+}
+
+newPost(firstPost)
+
+console.log(newPost(firstPost))
