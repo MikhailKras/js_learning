@@ -58,5 +58,19 @@ const car2 = {...car} // "..." - operator for properties of object spliting
 
 car2.colour = 'blue'
 
-console.log(car2.colour)
-console.log(car.colour)
+console.log(car2.colour) //blue
+console.log(car.colour) //red
+
+// how to avoid mutations without reference on nested object #3
+
+const human = {
+    name: 'Jack',
+    job: 'taxi driver'
+}
+
+const human2 = JSON.parse(JSON.stringify(human)) //reference on nested objects
+
+human2.name = 'Nick'
+
+console.log(human2.name) //Nick
+console.log(human.name) //Jack

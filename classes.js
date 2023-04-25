@@ -46,7 +46,7 @@ console.log(Car.getRandomCost(2000, 3000))
 
 // extending classes
 
-class NumArray extends Array {
+class NumArray extends Array { // class Array - parrent for class NumArray
     sum() {
         return this.reduce((el, acc) => acc += el, 0)
     }
@@ -54,5 +54,3 @@ class NumArray extends Array {
 
 const arr = new NumArray(1, 2, 3)
 console.log(arr.sum())
-
-console.log(arr.__proto__)

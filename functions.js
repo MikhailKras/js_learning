@@ -72,6 +72,4 @@ const firstPost = {
     author: 'Jake'
 }
 
-newPost(firstPost)
-
 console.log(newPost(firstPost))

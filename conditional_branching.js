@@ -56,10 +56,10 @@ value // condition
 
 let num = 10
 
-console.log(num < 0 ? 'Negative': 'Positive')
+console.log(num < 0 ? 'Negative': 'Positive') // Positive
 
 num = -10
 
 const res = num < 0 ? 'Negative': 'Positive'
 
-console.log(res)
+console.log(res) // Negative

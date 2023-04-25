@@ -54,7 +54,7 @@ const carInfo = {
     colour: 'red'
 }
 
-const countryCar = {
+const countryCar = { // merge
     ...carInfo,
     ...countryInfo
 }

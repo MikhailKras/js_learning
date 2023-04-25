@@ -48,5 +48,5 @@ console.log(arr) // [ 1, 2, 3 ]
 // map method
 
 const newArr = arr.map(el => el * 3)
-console.log(newArr)
-console.log(arr)
+console.log(newArr) // [ 3, 6, 9 ]
+console.log(arr) // [ 1, 2, 3 ]

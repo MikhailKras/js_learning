@@ -53,5 +53,3 @@ console.log(Object.values(car)) // [ 'yellow', 1500, 'small' ]
 for (const char of 'qwerty'){
     console.log(char)
 }
-
-console.log(char)

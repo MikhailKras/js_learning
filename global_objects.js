@@ -5,4 +5,4 @@
 //properties
 
 console.log(10)
-globalThis.console.log(10)
+globalThis.console.log(10) //same

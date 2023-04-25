@@ -19,4 +19,4 @@ d = false
 
 //const
 const e = 10
-e = 11
+e = 11 //TypeError: Assignment to constant variable.

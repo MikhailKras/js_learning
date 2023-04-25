@@ -19,7 +19,7 @@ const [fruitOne, fruitTwo] = fruits
 
 console.log(`${fruitOne}, ${fruitTwo}`) // Apple, Banana
 
-// destructuring in functions
+// destructuring of parameters in functions
 
 const carOne = {
     colour: 'green',
@@ -31,4 +31,4 @@ const carInfo = ({ cost, colour }) => {
     return `This is ${colour} car, cost = ${cost}`
 }
 
-console.log(carInfo(car)) // This is green car, cost = 2000
+console.log(carInfo(carOne)) // This is green car, cost = 2000

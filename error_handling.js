@@ -9,5 +9,7 @@ try {
 } catch (error) {
     // if error in some code
     console.error(error)
-    // console.log(error.message)
+    console.log(error.message)
 }
+
+console.log('Continue...')

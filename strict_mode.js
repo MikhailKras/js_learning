@@ -1,7 +1,7 @@
 'use strict'
 
 function myFn() {
-    a = true
+    a = true // ReferenceError: a is not defined (if use strict)
     console.log(a)
 }
 
